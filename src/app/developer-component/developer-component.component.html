@@ -1,0 +1,12 @@
+<main>
+<div>nom {{Loic.lastName}}</div>
+<div>prenom {{Loic.firstName}}</div>
+<div>age {{Loic.age}}</div>
+<div>sexe {{Loic.sexe}}</div>
+<div>bio {{Loic.bio}}</div>
+<div *ngFor = "let element of Loic.skill">
+  <app-skill [skill]="element" ></app-skill></div>
+
+
+</main>
+
